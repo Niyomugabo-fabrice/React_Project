@@ -2,10 +2,7 @@ import "../styles/header.css"
 export default function Header()
 {
     return(
-          <div >
-            <div >
-                <h1 className="head">Fabrice shop</h1>
-            </div>
+          <div className="header">
           <div className="nav">
                 <ul>
                 <li><a href="">Home</a></li>
