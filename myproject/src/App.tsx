@@ -1,15 +1,12 @@
 import Header from "./Components/Headers"
-import Products from "./Components/Product"
+// import Products from "./Components/Product"
+import "./App.css"
+import AppRoutes from "./routes/AppRoutes"
 
 function App() {
 
   return (
-    <>
-    <h1 style={{color:"blue",background:"yellow",position:"relative",textAlign:"center"}}>Fabrice Shop</h1>
-    <Header/>
-    <Products/>
-     
-    </>
+   <AppRoutes/>
   )
 }
 
