@@ -1,4 +1,4 @@
-function Services(){
+export default function Services(){
     return(
         <div className="services">
             <h2>This is Our Services</h2>

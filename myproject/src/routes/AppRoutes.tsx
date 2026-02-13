@@ -2,6 +2,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Products from "../Components/Product.tsx";
 import About from "../Components/About.tsx"
 import Home from "../Pages/Home.tsx"
+import Services from "../Components/Services.tsx";
 
 
 export default function AppRoutes()
@@ -12,6 +13,7 @@ export default function AppRoutes()
             <Route path="/product" element={<Products/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/" element={<Home/>}/>
+            <Route path="/services" element={<Services/>}/> 
          </Routes>
         </BrowserRouter>
     )
